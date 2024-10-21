@@ -2,8 +2,8 @@
 {% block crud_container %}
     {% if user %}
         <article class="card container fluid">
-            <h2>{{ user.username }}</h2>
-            <span>ID: {{ user.id }}</span><br>
+            <h2>ID: {{ user.id }}</h2>
+            <span>Name: {{ user.username }}</span><br>
             <span>Age: {{ user.age }}</span>
         </article>
         <br>
